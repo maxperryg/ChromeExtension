@@ -11,7 +11,5 @@
     "page_action": {
           "default_icon": "images/defaultIcon.png"
     },
-    "permissions": [
-      "activeTab"
-    ]
+    "permissions": ["storage"]
 }
