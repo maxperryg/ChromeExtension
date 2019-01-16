@@ -7,5 +7,11 @@
             "matches": ["*://vimeo.com/*", "*://player.vimeo.com/*"],
             "js": ["content.js"]
         }
+    ],
+    "page_action": {
+          "default_icon": "images/defaultIcon.png"
+    },
+    "permissions": [
+      "activeTab"
     ]
 }
