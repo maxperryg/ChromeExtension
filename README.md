@@ -1,2 +1,2 @@
 # ChromeExtension
-A nothing Extension. IDK what it will do yet
+Chrome extension that adds a video playback speed button to VIMEO player
