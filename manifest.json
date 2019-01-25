@@ -2,13 +2,16 @@
     "name": "Max Extension 1",
     "version": "1.0",
     "manifest_version": 2,
-    "optional_permissions": [ "storage" ],
+    "permissions": [
+          "storage"
+        ],
     "content_scripts": [
         {
             "all_frames": true,
             "matches": ["*://vimeo.com/*", "*://player.vimeo.com/*"],
             "js": ["content.js"],
-            "run_at": "document_end"
+            "css": ["styles.css"],
+            "run_at": "document_idle"
         }
     ],
     "page_action": {
